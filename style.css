@@ -26,6 +26,16 @@
   body{
     background-color: var(--body-background);
   }
+  
+  body::-webkit-scrollbar {
+    width: 12px;        
+  }
+ 
+  body::-webkit-scrollbar-thumb {
+    background-color:  var(--body-background);  /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid  var(--subtitle-color); /* creates padding around scroll thumb */
+  }
 
   h1{
     font-size: 2.5em;
